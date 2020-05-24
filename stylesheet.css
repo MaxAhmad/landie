@@ -1,4 +1,4 @@
-/*remove margins snd psddings from the base element*/
+/*remove margins and paddings from the base element*/
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 /*main section and top navigation background css*/
-.container {
+.bg-image-container {
     margin: 0 auto;
     background-image: url(Path.png);
       background-size: 100% 100%;
@@ -606,6 +606,31 @@ footer{
       width: 100%;
     }
     
-  
+}
 
+/*screens with minimum width of 360px*/
+@media(min-width: 360px){
+    body{
+        width: 100%;
+    }
+    
+    .article-container{
+        margin-left: -10px;
+    }
+
+    .main-section{
+        margin-left: -15px;
+    }
+
+    .main-section-btn{
+        width: 70%;
+    }
+
+    .first-section-h1{
+        width: 80%;
+      }
+
+      .site-summary button{
+        margin: 10px 60px;
+    }
 }
