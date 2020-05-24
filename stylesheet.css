@@ -606,6 +606,9 @@ footer{
       width: 100%;
     }
     
+    .article-container{
+        margin-left: 10px;
+    }
 }
 
 /*screens with minimum width of 360px*/
